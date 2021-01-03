@@ -6,7 +6,7 @@ remote.allowAnyHosts = true
 node {
            
         stage ("Git Check Out") {
-            git changelog: false, credentialsId: '657284f1-e9bf-4d3d-96d8-7bb4c4c646de', poll: false, url: 'https://github.com/cloverbranch/spring-boot-maven-example-helloworld.git'
+            git changelog: false, credentialsId: '', poll: false, url: 'https://github.com/cloverbranch/spring-boot-maven-example-helloworld.git'
         }
         
         stage ("Build") {
